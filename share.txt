@@ -1,3 +1,4 @@
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 pip install "unsloth[cu121-torch240] @ git+https://github.com/unslothai/unsloth.git"
 pip install timm
+pip install transformers
