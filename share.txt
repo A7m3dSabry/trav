@@ -1,5 +1,5 @@
 echo "@removing packages"
-pip freeze | xargs pip uninstall -y
+pip list | tail -n +3 | cut -d" " -f1 | xargs pip uninstall -y
 echo "@#removing packages done"
 pip config list
 echo "#####"
