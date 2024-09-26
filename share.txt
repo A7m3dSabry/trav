@@ -2,3 +2,6 @@ pip install pandas
 pip install bitsandbytes
 pip install transformers
 pip install accelerate
+echo "@@@@ less"
+ls /opt/ml/model
+ls /opt/ml
