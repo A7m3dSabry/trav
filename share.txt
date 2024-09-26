@@ -1,11 +1,9 @@
+echo "@removing packages"
+pip freeze | xargs pip uninstall -y
+echo "@#removing packages done"
+pip config list
+echo "#####"
 pip install pandas
 pip install bitsandbytes
 pip install transformers
 pip install accelerate
-echo "@@@@ less"
-ls /opt/ml/model
-echo @
-ls /opt/ml
-echo @
-cat /opt/ml/model/code/inference.py
-echo @
